@@ -1,5 +1,3 @@
-
-
 import java.util.Random;
 
 /**
@@ -179,6 +177,7 @@ public class SortTiming {
 			}
 			catch (Exception e) {
 				System.out.println("Unable to instantiate sorting algorithm " + algo);
+				System.out.println("----------------------------------------------------");
 			}
 		}
 	}
